@@ -114,10 +114,10 @@ module.exports = {
         test: /\.scss$/,
         use: [
           { loader: 'style-loader', options: { sourceMap: true } },
-          {
-            loader: 'resolve-url-loader',
-            options: { includeRoot: paths.PUBLIC }
-          },
+          // {
+          //   loader: 'resolve-url-loader',
+          //   options: { includeRoot: paths.PUBLIC }
+          // },
           {
             loader: 'css-loader',
             options: {
