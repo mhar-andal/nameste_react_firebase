@@ -9,7 +9,8 @@ module.exports = {
     'react/require-default-props': 0,
     'import/no-unresolved': 0,
     'import/extensions': 0,
-    'import/no-extraneous-dependencies': 0
+    'import/no-extraneous-dependencies': 0,
+    'arrow-parens': 0
   },
   globals: {
     window: true,
