@@ -10,7 +10,8 @@ module.exports = {
     'import/no-unresolved': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
-    'arrow-parens': 0
+    'arrow-parens': 0,
+    'function-paren-newline': 0
   },
   globals: {
     window: true,
